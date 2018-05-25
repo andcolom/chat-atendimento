@@ -2,14 +2,15 @@
   font-size: 1em;
   font-style: italic;
   font-weight: 400;
+  
 }
 
 .timeform {
   float: left;
   width: 100%;
-
   i {
     margin-left: 20px;
+    border-color: red;
   }
 
   .timestamp{
@@ -18,6 +19,6 @@
 }
 
 .avatar{
-  width: 50px;
+  width: 60px;
   margin-right: 20px;
 }

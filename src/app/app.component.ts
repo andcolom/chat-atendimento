@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { Message } from '@app/models';
+import { Message } from './models/message';
+
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,8 @@ export class AppComponent {
   constructor(){
     this.message = new Message('', 'assets/images/user.png');
     this.messages = [
-      new Message('Welcome to chatbot universe', 'assets/images/bot.png', new Date())
+      new Message('Bem vindo ao atendimento Droga Raia.', 
+      'assets/images/bot.png', new Date())
     ];
   }
 }

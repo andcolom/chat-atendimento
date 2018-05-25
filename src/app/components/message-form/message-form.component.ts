@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Message } from '@app/models';
-import { DialogflowService } from '@app/services';
+import { Message } from '../../models';
+import { DialogflowService } from '../../services';
+
 
 @Component({
   selector: 'message-form',

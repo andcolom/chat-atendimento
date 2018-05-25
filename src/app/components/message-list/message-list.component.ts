@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, AfterViewInit, ViewChild, ViewChildren, QueryList, ElementRef } from '@angular/core';
-import { Message } from '@app/models';
-import { MessageItemComponent } from '@app/components/message-item/message-item.component';
+import { Message } from '../../models';
+import { MessageItemComponent } from '../message-item/message-item.component';
 
 @Component({
   selector: 'message-list',
